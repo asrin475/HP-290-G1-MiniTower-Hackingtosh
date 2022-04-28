@@ -29,7 +29,7 @@ This repo contains Opencore EFI files and scripts to Install macOS
 
 - Bigsur 11.2.3 
 - Monterey 12.3.1 (Build 21E258)
-> had a black screen issue with booting the installer - adding device-id to the iGPU solved it.
+> had a black screen issue with booting the installer - adding device-id and framebuffer-type (00 08 00 00 - HDMI) to the iGPU solved it.
 
 
 ### BIOS Setup
@@ -39,6 +39,7 @@ This repo contains Opencore EFI files and scripts to Install macOS
 ### Issues
 
 - Waking monitor after sleep or locking
+- VGA is dead here
 
 
 ### Credits
