@@ -5,7 +5,7 @@ This repo contains Opencore EFI files and scripts to Install macOS
 ![HP290G1](https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05511779.png) ![Moneterey](./Monterey.png)
 
 ## Bootloader
-- Opencore `0.7.9`
+- Opencore `0.8.0`
 
 # Specifications
 
