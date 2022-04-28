@@ -47,7 +47,7 @@ All USB ports have been mapped using [Dontania's USB Mapping](https://dortania.g
 ### Known Issues
 
 - Sleep is working partially ( Monitor will not wake after starting from sleep )
-- 
+- VGA is not supported on both OSs
 
 
 ### Credits
