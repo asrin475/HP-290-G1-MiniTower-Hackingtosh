@@ -28,9 +28,11 @@ This repo contains Opencore EFI files and scripts to Install macOS
 
 ### Tested OS
 
+
 - Bigsur 11.2.3 (Build 20D91)
 - Monterey 12.3.1 (Build 21E258) - Installed on a seperate HDD
-> had a black screen issue with booting the installer - adding device-id to the iGPU solved it.
+> had a black screen issue with booting the installer - adding device-id and framebuffer-type (00 08 00 00 - HDMI) to the iGPU solved it.
+
 
 
 ### BIOS Setup
@@ -48,6 +50,7 @@ All USB ports have been mapped using [Dontania's USB Mapping](https://dortania.g
 
 - Sleep is working partially ( Monitor will not wake after starting from sleep )
 - VGA is not supported on both OSs
+
 
 
 ### Credits
